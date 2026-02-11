@@ -1,0 +1,27 @@
+{
+  "name": "backend-api-express",
+  "version": "1.0.0",
+  "description": "Backend API com Express, Prisma ORM e Zod.",
+  "keywords": [
+    "api",
+    "express",
+    "prisma",
+    "zod",
+    "mvc",
+    "middlewares"
+  ],
+  "homepage": "https://github.com/strawxtete/backend-api-express#readme",
+  "bugs": {
+    "url": "https://github.com/strawxtete/backend-api-express/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strawxtete/backend-api-express.git"
+  },
+  "license": "ISC",
+  "author": "Sthefany Santiago",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+  }
+}
