@@ -1,3 +1,0 @@
-export function getPostController(req, res) {
-  res.send('Exemplo de GET na rota /post no Controller')
-}
