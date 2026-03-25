@@ -1,11 +1,13 @@
 import { updateAvatarUser } from '../../models/userModel.js';
 
 export async function updateAvatarUserController(req, res) {
-  const { id } = req.params;
-  const { avatarUrl } = req.body;
-  const result = await updateAvatarUser(id, avatarUrl);
+  const { id } = req.params
+  const user = req.body
+
+  const result = await updateUser(user, +id)
+
   res.json({
     message: 'Avatar do usuário atualizado com sucesso!',
     user: result
-  });
+  })
 }
